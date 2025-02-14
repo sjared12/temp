@@ -1,0 +1,85 @@
+﻿@model WeddingShare.Models.PhotoGallery
+@using System.Text
+@using WeddingShare.Enums
+@using WeddingShare.Helpers
+@using WeddingShare.Views.Gallery
+@inject WeddingShare.Helpers.IGalleryHelper _gallery
+@inject WeddingShare.Helpers.IUrlHelper _url
+
+@if (_gallery.GetConfig(Model?.GalleryName, "Gallery:QR_Code", true))
+{
+    <div class="row mb-4">
+        <div class="col-12 text-center">
+            <div id="qrcode"></div>
+            <div id="qrcode-download" class="d-none"></div>
+            <h6>@_localizer["Share_Code"].Value</h6>
+            <script>
+                document.addEventListener('DOMContentLoaded', function () {
+                    if ($('#qrcode').length > 0 && $('#qrcode').is(':visible')) {
+                        $(function () {
+                            $('#qrcode').qrcode({ width: 150, height: 150, text: '@Html.Raw(ViewBag.QRCodeLink)' });
+                            $('#qrcode-download').qrcode({ width: 1000, height: 1000, text: '@Html.Raw(ViewBag.QRCodeLink)' });
+                        });
+                    }
+                }, false);
+            </script>
+        </div>
+    </div>
+}
+
+<div class="row px-4 mb-4 presentation-hidden">
+    <div class="col-12 px-5">
+        @if (_gallery.GetConfig(Model?.GalleryName, "Gallery:QR_Code", true))
+        {
+            <div class="btn-group w-100 mb-2">
+                <button class="btnSaveQRCode btn btn-primary btn-sm" type="button" data-gallery-name="@Model?.GalleryName">
+                    @_localizer["Save_QR"].Value
+                </button>
+            </div>
+        }
+
+        <div class="btn-group w-100 mb-2">
+            <button class="btn btn-primary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                @_localizer["View"].Value
+            </button>
+            <div class="dropdown-menu">
+                @foreach (ViewMode mode in Enum.GetValues(typeof(ViewMode)))
+                {
+                    var append = new List<KeyValuePair<string, string>>() 
+                    { 
+                        new KeyValuePair<string, string>("mode", ((int)mode).ToString()) 
+                    };
+                    <a class="dropdown-item" href="@_url.GenerateFullUrl(Context.Request, Context.Request.Path, append)">@mode</a>
+                }
+            </div>
+        </div>
+
+        <div class="btn-group w-100 mb-2">
+            <button class="btn btn-primary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                @_localizer["Sort"].Value
+            </button>
+            <div class="dropdown-menu">
+                @foreach (GalleryOrder order in Enum.GetValues(typeof(GalleryOrder)))
+                {
+                    if (order != GalleryOrder.None)
+                    {
+                        var append = new List<KeyValuePair<string, string>>() 
+                        { 
+                            new KeyValuePair<string, string>("order", ((int)order).ToString()) 
+                        };
+                        <a class="dropdown-item" href="@_url.GenerateFullUrl(Context.Request, Context.Request.Path, append)">@order</a>
+                    }
+                }
+            </div>
+        </div>
+        
+        @if (_gallery.GetConfig(Model?.GalleryName, "Gallery:Download", true) || (User?.Identity != null && User.Identity.IsAuthenticated))
+        {
+            <div class="btn-group w-100 mb-2">
+                <button class="btnDownloadGallery btn btn-primary btn-sm" type="button" data-gallery-id="@Model?.GalleryId">
+                    @_localizer["Download"].Value
+                </button>
+            </div>
+        }
+    </div>
+</div>

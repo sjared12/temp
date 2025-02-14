@@ -1,0 +1,9 @@
+@model WeddingShare.Models.Gallery
+
+@{
+    ViewData["Title"] = Model.Name;
+}
+
+<div class="gallery-homepage">
+    @Html.Raw(Model.CustomHomepageContent)
+</div>

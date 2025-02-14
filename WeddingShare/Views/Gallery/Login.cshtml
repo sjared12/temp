@@ -1,0 +1,20 @@
+@model LoginModel
+
+<h2>Login</h2>
+
+<form method="post">
+    <label>Username</label>
+    <input type="text" asp-for="Username" required />
+
+    <label>Password</label>
+    <input type="password" asp-for="Password" required />
+
+    <button type="submit">Login</button>
+</form>
+
+@if (!ViewData.ModelState.IsValid)
+{
+    <p style="color:red;">Invalid login attempt.</p>
+}
+<p>
+    <a asp-page="Register">Register</a>

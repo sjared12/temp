@@ -1,0 +1,88 @@
+﻿@model WeddingShare.Models.PhotoGallery
+
+@using WeddingShare.Enums
+@using WeddingShare.Views.Gallery.Modes
+@inject WeddingShare.Helpers.IConfigHelper _config
+@inject WeddingShare.Helpers.IGalleryHelper _gallery
+
+@{
+    var columnCount = _gallery.GetConfig(Model?.GalleryName, "Gallery:Columns", 4);
+    var identityEnabled = _config.GetOrDefault("Settings:Identity_Check:Enabled", true);
+
+    try
+    {
+        if (ViewBag.IsMobile ?? false)
+        {
+            columnCount = 1;
+        }
+        else
+        {
+            while (12 % columnCount != 0)
+            {
+                columnCount--;
+            }
+        }
+    }
+    catch { }
+}
+
+@for (var columnIndex = 0; columnIndex < columnCount; columnIndex++)
+{
+    <div class="@(ViewBag.IsMobile ? "col-12" : $"col-lg-{12 / columnCount} col-md-6 col-sm-12 mb-4 mb-lg-0")">
+        @if (Model?.Images != null)
+        {
+            var index = columnIndex;
+            while (index < Model.Images.Count())
+            {
+                var image = Model.Images[index];
+
+                <div class="image-tile mb-4">
+                    <a href="@image.ImagePath" class="media-viewer-item" data-media-viewer-type="@image.MediaType.ToString().ToLower()" data-media-viewer-collection="@image.GalleryName" data-media-viewer-author="@(identityEnabled ? $"{_localizer["Uploaded_By"].Value}: {(!string.IsNullOrWhiteSpace(image?.UploadedBy) ? image?.UploadedBy : "Anonymous")}" : string.Empty)" data-media-viewer-download="@((_gallery.GetConfig(Model?.GalleryName, "Gallery:Download", true) || (User?.Identity != null && User.Identity.IsAuthenticated)).ToString().ToLower())">
+                        <img src="@image.ThumbnailPath" class="w-100 shadow-1-strong" loading="lazy" />
+                        @if (image.MediaType == MediaType.Video)
+                        {
+                            <img src="/images/play-button.svg" class="media-viewer-play" loading="lazy" />
+                        }
+                    </a>
+                    @if (User?.Identity != null && User.Identity.IsAuthenticated)
+                    {
+                        <button type="button" class="btn btn-danger btnDeletePhoto w-100" data-photo-id="@image?.Id" data-photo-name="@image?.Name">@_localizer["Delete"].Value</button>
+                    }
+                </div>
+                index += columnCount;
+            }
+        }
+    </div>
+}
+
+@if (Model?.LoadScripts ?? true)
+{
+    var idleTimeout = _gallery.GetConfig(Model?.GalleryName, "Gallery:Idle_Refresh_Mins", 0);
+    if (idleTimeout > 0)
+    {
+        <script>
+            document.addEventListener('DOMContentLoaded', function () { 
+                $(function () { 
+                    var idleTimeout;
+
+                    onIdle();
+                    $(document).on('mousemove keydown scroll click', onIdle);
+
+                    function onIdle() {
+                        clearTimeout(idleTimeout);
+                        idleTimeout = setTimeout(function () {
+                            $.ajax({
+                                type: 'GET',
+                                url: `${window.location.pathname}${window.location.search}&partial=true`,
+                                success: function (data) {
+                                    $('#main-gallery').html(data);
+                                    onIdle();
+                                }
+                            });
+                        }, @TimeSpan.FromMinutes(idleTimeout).TotalMilliseconds);
+                    }
+                });
+            }, false);
+        </script>
+    }
+}

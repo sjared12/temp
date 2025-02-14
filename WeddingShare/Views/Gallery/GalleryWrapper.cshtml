@@ -1,0 +1,63 @@
+@model WeddingShare.Models.PhotoGallery
+@using WeddingShare.Enums
+@using WeddingShare.Views.Gallery
+@inject WeddingShare.Helpers.IGalleryHelper _gallery
+
+@if (Model.ViewMode != ViewMode.Slideshow)
+{
+    var quote = _gallery.GetConfig(Model?.GalleryName, "Gallery:Quote", string.Empty);
+    if (!string.IsNullOrWhiteSpace(quote))
+    {
+        <div class="row mb-3 mb-lg-4 border rounded">
+            <div class="col-12 quote">
+                <p class="my-4 mx-4 mx-lg-0 text-center">@quote</p>
+            </div>
+        </div>
+    }
+
+    if (_gallery.GetConfig(Model?.GalleryName, "Gallery:Review_Counter", true))
+    {
+        <div class="row mb-3 mb-lg-4 review-counter">
+            <div class="col-4">
+                <h6 class="my-0 text-center">@_localizer["Total"].Value<br /><span class="review-counter-total">@(Model?.TotalCount ?? 0)</span></h6>
+            </div>
+            <div class="col-4">
+                <h6 class="my-0 text-center">@_localizer["Approved"].Value<br /><span class="review-counter-approved">@(Model?.ApprovedCount ?? 0)</span></h6>
+            </div>
+            <div class="col-4">
+                <h6 class="my-0 text-center">@_localizer["Pending"].Value<br /><span class="review-counter-pending">@(Model?.PendingCount ?? 0)</span></h6>
+            </div>
+        </div>
+    }
+}
+
+@if (Model?.Images != null && Model.Images.Any())
+{
+    <div class="row">
+        @if (Model.ViewMode == ViewMode.Slideshow)
+        {
+            <partial name="~/Views/Gallery/Modes/Slideshow.cshtml" model="Model" />
+        }
+        else
+        {
+            <partial name="~/Views/Gallery/Modes/Default.cshtml" model="Model" />
+        }
+    </div>
+
+    @if (Model.Pagination && Model.ViewMode == ViewMode.Default)
+    {
+        <div class="row">
+            <div class="col-12">
+                <partial name="~/Views/Gallery/GalleryPagination.cshtml" model="new GalleryPaginationModel() { CurrentPage = Model.CurrentPage, TotalItems = Model?.ApprovedCount ?? 0, ItemsPerPage = Model?.ItemsPerPage ?? 50 }" />
+            </div>
+        </div>
+    }
+}
+else
+{
+    <div class="row mt-5 pt-5">
+        <div class="col-12 text-center">
+            <h3 class="display-6">@(Model?.FileUploader != null ? _localizer["Gallery_Empty_Upload"].Value : _localizer["Gallery_Empty"].Value)</h3>
+        </div>
+    </div>
+}
