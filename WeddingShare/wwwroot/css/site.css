@@ -1,0 +1,170 @@
+#main-wrapper {
+  position: relative;
+  top: 75px;
+}
+
+@media (max-width: 700px) {
+    .fa-2x {
+        font-size: 1.5em !important;
+    }
+
+    #main-wrapper {
+        top: 60px;
+    }
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.text-link, .text-link:hover, .text-link:active {
+    text-decoration: none;
+}
+
+.display-6 .fa-solid {
+    font-size: 25px !important;
+    margin: 0px;
+}
+
+.btn-outline-disabled, .btn-outline-disabled:active, .btn-outline-disabled:hover {
+    color: #777777;
+    border: 1px solid #777777;
+    cursor: default;
+}
+
+tr td {
+    line-height: 30px;
+    margin: 0px;
+    padding: 0px;
+}
+
+tr td i {
+    width: 30px;
+    height: 30px;
+    margin: 0px 2px 0px 0px;
+    padding: 5px !important;
+}
+
+.card {
+    overflow: hidden;
+}
+
+.quote {
+    color: var(--bs-quote-color);
+    background-color: var(--bs-quote-bg-color);
+    font-family: "cursive";
+    font-style: oblique;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+@media (max-width: 700px) {
+    .quote {
+        font-size: 0.8rem;
+    }
+}
+
+/* File Upload */
+.upload_drop {
+    color: #FFFFFF;
+    outline: 2px dashed #FFFFFF;
+    outline-offset: -12px;
+    transition: outline-offset 0.2s ease-out, outline-color 0.3s ease-in-out, background-color 0.2s ease-out;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+    .upload_drop.highlight {
+        outline-offset: -4px;
+        outline-color: #FFFFFF;
+    }
+
+.upload_svg {
+    fill: #FFFFFF;
+}
+
+.btn-upload {
+    background-color: #FFFFFF;
+}
+
+    .btn-upload:hover, .btn-upload:focus {
+        color: #FFFFFF;
+        background-color: #ff7563;
+    }
+
+.pending-approval .btn-group .btn {
+    height: 50px;
+}
+
+.pending-approval .btn-group .btn:first-child {
+    border-radius: 0px 0px 0px 5px;
+}
+
+.pending-approval .btn-group .btn:last-child {
+    border-radius: 0px 0px 5px 0px;
+}
+
+.review-tile {
+    height: 200px;
+    width: 100%;
+    object-fit: contain;
+}
+
+.image-tile {
+    position: relative;
+    display: block;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+    .image-tile a {
+        display: block;
+        overflow: hidden;
+    }
+
+        .image-tile a img {
+            display: inline-block;
+        }
+
+    .image-tile .btn {
+        height: 40px;
+        position: relative;
+        top: -40px;
+        margin-bottom: -40px;
+        border-radius: 0px;
+        display: none;
+    }
+
+    .image-tile:hover .btn {
+        display: block;
+    }
+
+.slideshow {
+    text-align: center;
+}
+
+    .slideshow .slideshow-slide {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        display: none;
+    }
+
+        .slideshow .slideshow-slide .slideshow-slide-img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            overflow: hidden;
+        }
+
+        .slideshow .slideshow-slide .credits {
+            font-size: 8pt;
+            font-style: italic;
+            margin-top: 15px;
+        }
+
+.fa-buymeacoffee {
+    width: 13px;
+    height: 13px;
+    margin: -3px 4px 0px;
+}
