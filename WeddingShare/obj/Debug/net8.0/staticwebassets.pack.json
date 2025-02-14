@@ -1,0 +1,429 @@
+{
+  "Files": [
+    {
+      "Id": "\\\\Mac\\Home\\Downloads\\WeddingShare-main\\WeddingShare\\wwwroot\\css\\bootstrap-icons.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-icons.css"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Downloads\\WeddingShare-main\\WeddingShare\\wwwroot\\css\\fontawesome.brands.min.css",
+      "PackagePath": "staticwebassets\\css\\fontawesome.brands.min.css"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Downloads\\WeddingShare-main\\WeddingShare\\wwwroot\\css\\fontawesome.min.css",
+      "PackagePath": "staticwebassets\\css\\fontawesome.min.css"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Downloads\\WeddingShare-main\\WeddingShare\\wwwroot\\css\\fontawesome.regular.min.css",
+      "PackagePath": "staticwebassets\\css\\fontawesome.regular.min.css"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Downloads\\WeddingShare-main\\WeddingShare\\wwwroot\\css\\fontawesome.solid.min.css",
+      "PackagePath": "staticwebassets\\css\\fontawesome.solid.min.css"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Downloads\\WeddingShare-main\\WeddingShare\\wwwroot\\css\\jquery.lightbox.min.css",
+      "PackagePath": "staticwebassets\\css\\jquery.lightbox.min.css"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Downloads\\WeddingShare-main\\WeddingShare\\wwwroot\\css\\jquery.loading.css",
+      "PackagePath": "staticwebassets\\css\\jquery.loading.css"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Downloads\\WeddingShare-main\\WeddingShare\\wwwroot\\css\\media-viewer.css",
+      "PackagePath": "staticwebassets\\css\\media-viewer.css"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Downloads\\WeddingShare-main\\WeddingShare\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Downloads\\WeddingShare-main\\WeddingShare\\wwwroot\\css\\template.css",
+      "PackagePath": "staticwebassets\\css\\template.css"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Downloads\\WeddingShare-main\\WeddingShare\\wwwroot\\css\\themes\\dark.css",
+      "PackagePath": "staticwebassets\\css\\themes\\dark.css"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Downloads\\WeddingShare-main\\WeddingShare\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Downloads\\WeddingShare-main\\WeddingShare\\wwwroot\\images\\buymeacoffee.gif",
+      "PackagePath": "staticwebassets\\images\\buymeacoffee.gif"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Downloads\\WeddingShare-main\\WeddingShare\\wwwroot\\images\\close.png",
+      "PackagePath": "staticwebassets\\images\\close.png"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Downloads\\WeddingShare-main\\WeddingShare\\wwwroot\\images\\loading.gif",
+      "PackagePath": "staticwebassets\\images\\loading.gif"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Downloads\\WeddingShare-main\\WeddingShare\\wwwroot\\images\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Downloads\\WeddingShare-main\\WeddingShare\\wwwroot\\images\\next.png",
+      "PackagePath": "staticwebassets\\images\\next.png"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Downloads\\WeddingShare-main\\WeddingShare\\wwwroot\\images\\play-button.svg",
+      "PackagePath": "staticwebassets\\images\\play-button.svg"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Downloads\\WeddingShare-main\\WeddingShare\\wwwroot\\images\\prev.png",
+      "PackagePath": "staticwebassets\\images\\prev.png"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Downloads\\WeddingShare-main\\WeddingShare\\wwwroot\\js\\admin.js",
+      "PackagePath": "staticwebassets\\js\\admin.js"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Downloads\\WeddingShare-main\\WeddingShare\\wwwroot\\js\\gallery.js",
+      "PackagePath": "staticwebassets\\js\\gallery.js"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Downloads\\WeddingShare-main\\WeddingShare\\wwwroot\\js\\lang\\de-DE.js",
+      "PackagePath": "staticwebassets\\js\\lang\\de-DE.js"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Downloads\\WeddingShare-main\\WeddingShare\\wwwroot\\js\\lang\\en-GB.js",
+      "PackagePath": "staticwebassets\\js\\lang\\en-GB.js"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Downloads\\WeddingShare-main\\WeddingShare\\wwwroot\\js\\lang\\es-ES.js",
+      "PackagePath": "staticwebassets\\js\\lang\\es-ES.js"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Downloads\\WeddingShare-main\\WeddingShare\\wwwroot\\js\\lang\\fr-FR.js",
+      "PackagePath": "staticwebassets\\js\\lang\\fr-FR.js"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Downloads\\WeddingShare-main\\WeddingShare\\wwwroot\\js\\lang\\localization.js",
+      "PackagePath": "staticwebassets\\js\\lang\\localization.js"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Downloads\\WeddingShare-main\\WeddingShare\\wwwroot\\js\\lang\\nl-NL.js",
+      "PackagePath": "staticwebassets\\js\\lang\\nl-NL.js"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Downloads\\WeddingShare-main\\WeddingShare\\wwwroot\\js\\lang\\sv-SE.js",
+      "PackagePath": "staticwebassets\\js\\lang\\sv-SE.js"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Downloads\\WeddingShare-main\\WeddingShare\\wwwroot\\js\\media-viewer.js",
+      "PackagePath": "staticwebassets\\js\\media-viewer.js"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Downloads\\WeddingShare-main\\WeddingShare\\wwwroot\\js\\popup.js",
+      "PackagePath": "staticwebassets\\js\\popup.js"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Downloads\\WeddingShare-main\\WeddingShare\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Downloads\\WeddingShare-main\\WeddingShare\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Downloads\\WeddingShare-main\\WeddingShare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Downloads\\WeddingShare-main\\WeddingShare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Downloads\\WeddingShare-main\\WeddingShare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Downloads\\WeddingShare-main\\WeddingShare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Downloads\\WeddingShare-main\\WeddingShare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Downloads\\WeddingShare-main\\WeddingShare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Downloads\\WeddingShare-main\\WeddingShare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Downloads\\WeddingShare-main\\WeddingShare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Downloads\\WeddingShare-main\\WeddingShare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Downloads\\WeddingShare-main\\WeddingShare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Downloads\\WeddingShare-main\\WeddingShare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Downloads\\WeddingShare-main\\WeddingShare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Downloads\\WeddingShare-main\\WeddingShare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Downloads\\WeddingShare-main\\WeddingShare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Downloads\\WeddingShare-main\\WeddingShare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Downloads\\WeddingShare-main\\WeddingShare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Downloads\\WeddingShare-main\\WeddingShare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Downloads\\WeddingShare-main\\WeddingShare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Downloads\\WeddingShare-main\\WeddingShare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Downloads\\WeddingShare-main\\WeddingShare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Downloads\\WeddingShare-main\\WeddingShare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Downloads\\WeddingShare-main\\WeddingShare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Downloads\\WeddingShare-main\\WeddingShare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Downloads\\WeddingShare-main\\WeddingShare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Downloads\\WeddingShare-main\\WeddingShare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Downloads\\WeddingShare-main\\WeddingShare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Downloads\\WeddingShare-main\\WeddingShare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Downloads\\WeddingShare-main\\WeddingShare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Downloads\\WeddingShare-main\\WeddingShare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Downloads\\WeddingShare-main\\WeddingShare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Downloads\\WeddingShare-main\\WeddingShare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Downloads\\WeddingShare-main\\WeddingShare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Downloads\\WeddingShare-main\\WeddingShare\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Downloads\\WeddingShare-main\\WeddingShare\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Downloads\\WeddingShare-main\\WeddingShare\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Downloads\\WeddingShare-main\\WeddingShare\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Downloads\\WeddingShare-main\\WeddingShare\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Downloads\\WeddingShare-main\\WeddingShare\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Downloads\\WeddingShare-main\\WeddingShare\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Downloads\\WeddingShare-main\\WeddingShare\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Downloads\\WeddingShare-main\\WeddingShare\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Downloads\\WeddingShare-main\\WeddingShare\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Downloads\\WeddingShare-main\\WeddingShare\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Downloads\\WeddingShare-main\\WeddingShare\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Downloads\\WeddingShare-main\\WeddingShare\\wwwroot\\lib\\fontawesome\\fontawesome.brands.min.js",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\fontawesome.brands.min.js"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Downloads\\WeddingShare-main\\WeddingShare\\wwwroot\\lib\\fontawesome\\fontawesome.regular.min.js",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\fontawesome.regular.min.js"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Downloads\\WeddingShare-main\\WeddingShare\\wwwroot\\lib\\fontawesome\\fontawesome.solid.min.js",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\fontawesome.solid.min.js"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Downloads\\WeddingShare-main\\WeddingShare\\wwwroot\\lib\\jquery-lightbox\\lightbox-plus-jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-lightbox\\lightbox-plus-jquery.min.js"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Downloads\\WeddingShare-main\\WeddingShare\\wwwroot\\lib\\jquery-lightbox\\lightbox-plus-jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery-lightbox\\lightbox-plus-jquery.min.map"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Downloads\\WeddingShare-main\\WeddingShare\\wwwroot\\lib\\jquery-loading\\jquery.loading.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-loading\\jquery.loading.min.js"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Downloads\\WeddingShare-main\\WeddingShare\\wwwroot\\lib\\jquery-qrcode\\jquery.qrcode.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-qrcode\\jquery.qrcode.min.js"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Downloads\\WeddingShare-main\\WeddingShare\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Downloads\\WeddingShare-main\\WeddingShare\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Downloads\\WeddingShare-main\\WeddingShare\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Downloads\\WeddingShare-main\\WeddingShare\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Downloads\\WeddingShare-main\\WeddingShare\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Downloads\\WeddingShare-main\\WeddingShare\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Downloads\\WeddingShare-main\\WeddingShare\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Downloads\\WeddingShare-main\\WeddingShare\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Downloads\\WeddingShare-main\\WeddingShare\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Downloads\\WeddingShare-main\\WeddingShare\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Downloads\\WeddingShare-main\\WeddingShare\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Downloads\\WeddingShare-main\\WeddingShare\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Downloads\\WeddingShare-main\\WeddingShare\\wwwroot\\robots.txt",
+      "PackagePath": "staticwebassets\\robots.txt"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Downloads\\WeddingShare-main\\WeddingShare\\wwwroot\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Downloads\\WeddingShare-main\\WeddingShare\\wwwroot\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Downloads\\WeddingShare-main\\WeddingShare\\wwwroot\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Downloads\\WeddingShare-main\\WeddingShare\\wwwroot\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Downloads\\WeddingShare-main\\WeddingShare\\wwwroot\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Downloads\\WeddingShare-main\\WeddingShare\\wwwroot\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WeddingShare.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.WeddingShare.props",
+      "PackagePath": "build\\WeddingShare.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.WeddingShare.props",
+      "PackagePath": "buildMultiTargeting\\WeddingShare.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.WeddingShare.props",
+      "PackagePath": "buildTransitive\\WeddingShare.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
